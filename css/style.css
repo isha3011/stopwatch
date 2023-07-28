@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('/img/prec.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    width: 20%;
+    height: 80px;
+    background: linear-gradient(45deg, rgb(160, 139, 24), rgb(228, 140, 16));
+    border-radius: 20px;
+    margin-left: 40%;
+}
+.head h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.stopwatch{
+    width: 80%;
+    max-width: 600px;
+    /*background-image: linear-gradient(55deg, rgb(14, 133, 207),rgb(160, 24, 81));*/
+    background-image: linear-gradient(55deg, rgb(206, 183, 33),rgb(217, 105, 13));
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10%;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(97, 89, 42);
+}
+.stopwatch h2{
+    font-size: 80px;
+}
+.buttons img{
+    width: 10%;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
